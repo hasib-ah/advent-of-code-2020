@@ -1,14 +1,16 @@
+# 
+
 infile=open("input.txt")
 input=infile.readlines()
 nums=[int(str) for str in input]
 
 
-# # pt.1
+# pt.1
 
-# for n in nums:
-#     if (2020-n) in nums:
-#         print(n*(2020-n))
-#         break
+for n in nums:
+    if (2020-n) in nums:
+        print(n*(2020-n))
+        break
 
 # pt.2
 res=False
